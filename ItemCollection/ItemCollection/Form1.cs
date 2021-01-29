@@ -16,13 +16,27 @@ namespace ItemCollection
         private void btnAddName_Click(object sender, EventArgs e)
         {
             var name = lbNames.SelectedItem;
-            lbCollection.Items.Add(name);
+            if (lbCollection.Items.Contains(name))
+            {
+                MessageBox.Show("Selected name already exists in the collection");
+            }
+            else
+            {
+                lbCollection.Items.Add(name);
+            }
         }
 
         private void btnAddNumber_Click(object sender, EventArgs e)
         {
             var number = lbNumbers.SelectedItem;
-            lbCollection.Items.Add(number);
+            if (lbCollection.Items.Contains(number))
+            {
+                MessageBox.Show("Selected number already exists in the collection");
+            }
+            else
+            {
+                lbCollection.Items.Add(number);
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -143,20 +143,20 @@ namespace ItemCollection
             // lblCountNames
             // 
             this.lblCountNames.AutoSize = true;
-            this.lblCountNames.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblCountNames.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.lblCountNames.Location = new System.Drawing.Point(26, 293);
             this.lblCountNames.Name = "lblCountNames";
-            this.lblCountNames.Size = new System.Drawing.Size(176, 20);
+            this.lblCountNames.Size = new System.Drawing.Size(166, 20);
             this.lblCountNames.TabIndex = 6;
             this.lblCountNames.Text = "Total count of names: ";
             // 
             // lblCountNumbers
             // 
             this.lblCountNumbers.AutoSize = true;
-            this.lblCountNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblCountNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.lblCountNumbers.Location = new System.Drawing.Point(320, 297);
             this.lblCountNumbers.Name = "lblCountNumbers";
-            this.lblCountNumbers.Size = new System.Drawing.Size(191, 20);
+            this.lblCountNumbers.Size = new System.Drawing.Size(180, 20);
             this.lblCountNumbers.TabIndex = 7;
             this.lblCountNumbers.Text = "Total count of numbers: ";
             // 
@@ -188,7 +188,7 @@ namespace ItemCollection
             this.lbCollection.Name = "lbCollection";
             this.lbCollection.Size = new System.Drawing.Size(230, 202);
             this.lbCollection.TabIndex = 10;
-            this.lbCollection.KeyPress += new KeyPressEventHandler(this.lbCollection_KeyPress);
+            this.lbCollection.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lbCollection_KeyPress);
             // 
             // btnCount
             // 
@@ -264,10 +264,10 @@ namespace ItemCollection
             // lblCountList
             // 
             this.lblCountList.AutoSize = true;
-            this.lblCountList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblCountList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.lblCountList.Location = new System.Drawing.Point(25, 570);
             this.lblCountList.Name = "lblCountList";
-            this.lblCountList.Size = new System.Drawing.Size(197, 20);
+            this.lblCountList.Size = new System.Drawing.Size(184, 20);
             this.lblCountList.TabIndex = 16;
             this.lblCountList.Text = "Total count of collection: ";
             // 
